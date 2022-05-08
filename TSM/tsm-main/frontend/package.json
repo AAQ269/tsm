@@ -1,0 +1,37 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "proxy": "http://localhost:3000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mongodb-js/charts-embed-dom": "^2.2.0",
+    "@types/axios": "^0.14.0",
+    "@types/googlemaps": "^3.43.3",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.13",
+    "@types/react-router-dom": "^5.3.3",
+    "ajv": "^8.11.0",
+    "axios": "^0.26.1",
+    "git": "^0.1.5",
+    "google-distance-matrix": "^1.1.1",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "moment": "^2.29.3",
+    "node-geometry-library": "^1.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^6.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
