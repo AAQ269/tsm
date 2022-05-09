@@ -1,0 +1,20 @@
+version: 1.0 
+runtime: nodejs12 
+build:
+  commands: 
+    pre-build:
+      - npm install -g TypeScript
+      - npm init -y
+      - npm install parcel-bundler
+      - npm install react react-dom react-router-dom@5.0.1
+      - npm install -D @types/react @types/react-dom @types/react-router-dom
+      - npm install express
+      - npm server.js
+      - npm install google-maps-react@2.0.6
+      - npm install google-distance-matrix
+run:
+  command:
+      - npm run dev
+      - npm run server
+  network:
+      port: 8000
